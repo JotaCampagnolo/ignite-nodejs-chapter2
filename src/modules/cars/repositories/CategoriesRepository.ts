@@ -1,5 +1,5 @@
+import { categoriesRoutes } from "../../../routes/categories.routes";
 import { Category } from "../models/Category";
-import { categoriesRoutes } from "../routes/categories.routes";
 import {
   ICategoriesRepository,
   ICreateCategoryDTO,
