@@ -1,0 +1,8 @@
+{
+  "type": "postgres",
+  "host": "172.17.0.1",
+  "port": 5439,
+  "username": "rentalx",
+  "password": "rentalx",
+  "detabase": "rentalx"
+}
