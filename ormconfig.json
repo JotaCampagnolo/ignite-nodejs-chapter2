@@ -1,10 +1,11 @@
 {
   "type": "postgres",
-  "host": "192.168.23.167",
+  "host": "172.28.32.1",
   "port": 5439,
   "username": "rentalx",
   "password": "rentalx",
   "detabase": "rentalx",
+  "entities": ["./src/modules/**/entities/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
